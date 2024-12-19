@@ -9,3 +9,4 @@ class CustomUser(AbstractUser):
         ('parent', 'Parent'),
     ]
     role = models.CharField(max_length=10, choices=ROLES, default='student')
+    
